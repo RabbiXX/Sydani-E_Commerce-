@@ -23,7 +23,7 @@ export default function SignupPage() {
                 <input className="h-4 w-4" type="checkbox" name="remember"/>
                 <span className="text-[#603410]">Remember Me</span>
               </label>
-              <a href="" className="text-[#0e0702]">Forgot Password?</a>
+              <a href="/forgot-password" className="text-[#0e0702]">Forgot Password?</a>
               
             </div>
             <div className="mt-3 ">
