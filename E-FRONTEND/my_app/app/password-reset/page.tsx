@@ -1,4 +1,4 @@
-export default function ForgotPasswordPage() {
+export default function PasswordResetCodePage() {
   return (
     <div className="w-full min-h-screen py-3 px-4 flex flex-col items-center justify-between bg-[url('/images/hairbundle.jpg')] bg-cover bg-center">
       <div className="max-w-md ">
@@ -18,7 +18,7 @@ export default function ForgotPasswordPage() {
             </div>
             <div className="mt-3 ">
               <div className="w-full mb-3">
-                <button className="w-full p-2 rounded-lg bg-[#603410] text-white hover:bg-[#311905] transition duration-300">Continue</button>
+                <a href="/new-password"><button className="w-full p-2 rounded-lg bg-[#603410] text-white hover:bg-[#311905] transition duration-300">Continue</button></a>
               </div>
               <div className="w-full mt-3 flex justify-center">
                 <p className="text-[#311905]">Didn't receive a code?<a href="#" className="text-sky-700 ml-1.5">Resend</a></p>
