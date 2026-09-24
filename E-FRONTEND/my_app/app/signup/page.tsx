@@ -1,7 +1,7 @@
 export default function SignupPage() {
   return (
     <div className="w-full min-h-screen py-3 px-4 bg-[url('/images/background.jpg')] bg-cover bg-center">
-      <div className="max-w-5xl p-4 mx-auto grid grid-cols-1 md:grid-cols-2 items-center rounded-3xl bg-[#5c2c05]/90">
+      <div className="mb-2 max-w-5xl p-4 mx-auto grid grid-cols-1 md:grid-cols-2 items-center rounded-3xl bg-[#5c2c05]/90">
         <div className="w-48 sm:w-64 md:w-80 aspect-square rounded-full  mx-auto flex justify-center items-center outline-2 outline-amber-900 bg-gray-100 border-2  border-gray-900">
           <div className="w-2/3 aspect-square"><img className="w-full h-full object-contain" src="/images/logo.jpg" alt="Logo" /></div>
         </div>
@@ -37,8 +37,14 @@ export default function SignupPage() {
             </div>
           </div>
         </div>
-
       </div>
+      <footer className="w-full mt-auto bg-[#603410]/40 text-white backdrop-blur-xs py-2">
+        <div className="max-w-full mx-auto text-center px-6">
+          <p className="text-center text-black">
+            &copy; HairHaven, All rights Reserved
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
