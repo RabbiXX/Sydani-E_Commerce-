@@ -13,7 +13,7 @@ export default function ForgotPasswordPage() {
             </div>
             <div className="mt-3 ">
               <div className="w-full mb-3">
-                <button className="w-full p-2 rounded-lg bg-[#603410] text-white hover:bg-[#311905] transition duration-300">Continue</button>
+                <a href="/password-reset"><button className="w-full p-2 rounded-lg bg-[#603410] text-white hover:bg-[#311905] transition duration-300">Continue</button></a>
               </div>
               <div className="w-full mt-3 flex justify-center">
                 <a href="/login" className="text-slate-700">&#8592; Back to login</a>
