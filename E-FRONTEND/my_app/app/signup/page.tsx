@@ -10,17 +10,17 @@ export default function SignupPage() {
           <div className="w-75 mx-auto flex gap-4 flex-col py-5">
             <h2 className="text-4xl text-black text-center">Create Account</h2>
             <div className="w-full">
-              <p className="text-lg text-[#281404]">Name</p>
-              <input type="text" className="stuff w-full p-2 rounded-lg bg-[#603410]/80 text-white placeholder-white placeholder:text-sm focus:outline-hidden focus:ring-2 focus:ring-amber-500" placeholder="Enter your name" />
+              <label htmlFor="name" className="text-lg text-[#281404]">Name</label>
+              <input type="text" id="name" className="stuff w-full p-2 rounded-lg bg-[#603410]/80 text-white placeholder-white placeholder:text-sm focus:outline-hidden focus:ring-2 focus:ring-amber-500" placeholder="Enter your name" />
             </div>
             <div className="w-full">
-              <p className="text-lg text-[#281404]">Email</p>
-              <input type="text" className="w-full p-2 rounded-lg bg-[#603410]/80 text-white placeholder-white placeholder:text-sm  focus:outline-hidden focus:ring-2 focus:ring-amber-500" placeholder="Enter your email" alt="email" />
+              <label  htmlFor="email"className="text-lg text-[#281404]">Email</label>
+              <input type="email" id="email" className="w-full p-2 rounded-lg bg-[#603410]/80 text-white placeholder-white placeholder:text-sm  focus:outline-hidden focus:ring-2 focus:ring-amber-500" placeholder="Enter your email"  />
             </div>
             <div className="w-full">
-              <p className="text-lg text-[#281404]">Password</p>
-              <input type="password" className="w-full p-2 rounded-lg bg-[#603410]/80 text-white placeholder-white placeholder:text-sm focus:outline-hidden focus:ring-2 focus:ring-amber-500" placeholder="Enter your password" alt="password" />
-            </div>g
+              <label htmlFor="password" className="text-lg text-[#281404]">Passwod</label>
+              <input type="password" id="password" className="w-full p-2 rounded-lg bg-[#603410]/80 text-white placeholder-white placeholder:text-sm focus:outline-hidden focus:ring-2 focus:ring-amber-500" placeholder="Enter your password"  />
+            </div>
             <div className="mt-3 ">
               <div className="w-full mb-3">
                 <button className="w-full p-2 rounded-lg bg-[#603410] text-white hover:bg-[#311905] transition duration-300">Create Account</button>
@@ -31,13 +31,10 @@ export default function SignupPage() {
                 </button>
               </div>
               <div className="w-full mt-3 flex justify-center">
-                <a href="#"><button className=" bg-[#957762] text-[#1f1004] flex flex-col items-center justify-center px-4 py-3 rounded-lg hover:bg-[#502d14] transition duration-300 hover:text-[#ae9c8e]">Already have an account?<span className="text-[#904407] ml-1.5"> Login here</span>
+                <a href="/login"><button className=" bg-[#957762] text-[#1f1004] flex flex-col items-center justify-center px-4 py-3 rounded-lg hover:bg-[#502d14] transition duration-300 hover:text-[#ae9c8e]">Already have an account?<span className="text-[#904407] ml-1.5"> Login here</span>
                 </button></a>
               </div>
             </div>
-
-
-
           </div>
         </div>
 
@@ -45,3 +42,5 @@ export default function SignupPage() {
     </div>
   );
 }
+
+
