@@ -28,12 +28,17 @@ export default function LoginPage() {
             </div>
             <div className="mt-3 ">
               <div className="w-full mb-3">
-                <button className="w-full p-2 rounded-lg bg-[#603410] text-white hover:bg-[#311905] transition duration-300">Sign in</button>
-              </div>=
+                <a href="/home">
+                  <button className="w-full p-2 rounded-lg bg-[#603410] text-white hover:bg-[#311905] transition duration-300">Sign in</button>
+                </a>
+              </div>
               <div className="w-full">
-                <button className="w-full bg-white flex items-center justify-center p-2 rounded-lg text-black hover:bg-[#695547] transition duration-300">
+                <a href="/home">
+                  <button className="w-full bg-white flex items-center justify-center p-2 rounded-lg text-black hover:bg-[#695547] transition duration-300">
                   <div className="mx-2 bg-white p-0.5 rounded-full"><img className="h-5 rounded-full" src="/images/google-logo.png" alt="" /></div>Sign in with Google
                 </button>
+                </a>
+                
               </div>
               <div className="w-full mt-3 flex justify-center">
                 <a href="/signup"><button className="text-[#1f1004] flex flex-col items-center justify-center px-4 py-3 rounded-lg hover:bg-[#502d14] transition duration-300 hover:text-[#ae9c8e]">Don't have an account?<span className="text-[#904407] ml-1.5"> Sign up here</span>

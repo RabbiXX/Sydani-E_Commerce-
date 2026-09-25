@@ -1,4 +1,4 @@
-export default function PasswordResetCodePage() {
+export default function PasswordResetPage() {
   return (
     <div className="w-full min-h-screen py-3 px-4 flex flex-col items-center justify-between bg-[url('/images/hairbundle.jpg')] bg-cover bg-center">
       <div className="max-w-md ">
