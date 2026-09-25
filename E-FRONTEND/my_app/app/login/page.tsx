@@ -7,36 +7,36 @@ export default function LoginPage() {
         </div>
 
         <div className="mt-5 flex justify-center items-center text-white border-2 border-gray-700 bg-[#f3e2d5]/70 rounded-2xl ">
-          <div className="w-75 mx-auto flex gap-4 flex-col py-5">
-            <h2 className="text-4xl text-black text-center">Welcome Back!<br /><span className="text-2xl">Login</span></h2>
+          <div className="w-60 md:w-75 mx-auto flex gap-4 flex-col py-5">
+            <h2 className="text-2xl md:text-4xl text-black text-center">Welcome Back!<br /><span className="text-2xl">Login</span></h2>
 
             <div className="w-full">
               <label  htmlFor="email"className="text-lg text-[#281404]">Email</label>
-              <input type="email" id="email" className="w-full p-2 rounded-lg bg-[#603410]/80 text-white placeholder-white placeholder:text-sm  focus:outline-hidden focus:ring-2 focus:ring-amber-500" placeholder="Enter your email"  />
+              <input type="email" id="email" className="w-full p-2 rounded-lg bg-white text-white placeholder-black placeholder:text-sm  focus:outline-hidden focus:ring-2 focus:ring-amber-500" placeholder="Enter your email"  />
             </div>
             <div className="w-full">
               <label htmlFor="password" className="text-lg text-[#281404]">Password</label>
-              <input type="password" id="password" className="w-full p-2 rounded-lg bg-[#603410]/80 text-white placeholder-white placeholder:text-sm focus:outline-hidden focus:ring-2 focus:ring-amber-500" placeholder="••••••••••••••••"  />
+              <input type="password" id="password" className="w-full p-2 rounded-lg bg-white text-white placeholder-black placeholder:text-sm focus:outline-hidden focus:ring-2 focus:ring-amber-500" placeholder="••••••••••••••••"  />
             </div>
             <div className="w-full flex justify-between">
-              <label className="flex items-center gap-2">
+              <label className="flex items-center gap-1">
                 <input className="h-4 w-4" type="checkbox" name="remember"/>
-                <span className="text-[#603410]">Remember Me</span>
+                <span className="text-[#603410] text-nowrap ">Remember Me</span>
               </label>
-              <a href="/forgot-password" className="text-[#0e0702]">Forgot Password?</a>
+              <a href="/forgot-password" className="text-[#0e0702] text-nowrap ml-2">Forgot Password?</a>
               
             </div>
             <div className="mt-3 ">
               <div className="w-full mb-3">
                 <button className="w-full p-2 rounded-lg bg-[#603410] text-white hover:bg-[#311905] transition duration-300">Sign in</button>
-              </div>
+              </div>=
               <div className="w-full">
                 <button className="w-full bg-white flex items-center justify-center p-2 rounded-lg text-black hover:bg-[#695547] transition duration-300">
                   <div className="mx-2 bg-white p-0.5 rounded-full"><img className="h-5 rounded-full" src="/images/google-logo.png" alt="" /></div>Sign in with Google
                 </button>
               </div>
               <div className="w-full mt-3 flex justify-center">
-                <a href="/signup"><button className=" bg-[#957762] text-[#1f1004] flex flex-col items-center justify-center px-4 py-3 rounded-lg hover:bg-[#502d14] transition duration-300 hover:text-[#ae9c8e]">Don't have an account?<span className="text-[#904407] ml-1.5"> Sign up here</span>
+                <a href="/signup"><button className="text-[#1f1004] flex flex-col items-center justify-center px-4 py-3 rounded-lg hover:bg-[#502d14] transition duration-300 hover:text-[#ae9c8e]">Don't have an account?<span className="text-[#904407] ml-1.5"> Sign up here</span>
                 </button></a>
               </div>
             </div>
