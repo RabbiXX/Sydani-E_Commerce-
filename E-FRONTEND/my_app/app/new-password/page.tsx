@@ -16,7 +16,7 @@ export default function NewPasswordPage() {
             </div>
             <div className="mt-5">
               <div className="w-full mb-3">
-                <button className="w-full p-2 rounded-lg bg-[#603410] text-white hover:bg-[#311905] transition duration-300">Reset password</button>
+                <a href="/login"><button className="w-full p-2 rounded-lg bg-[#603410] text-white hover:bg-[#311905] transition duration-300">Reset password</button></a>
               </div>
               <div className="w-full mt-3 flex justify-center">
                 <a href="/login" className="text-slate-700">&#8592; Back to login</a>
