@@ -32,9 +32,9 @@ export default function PasswordResetPage() {
           </div>
 
           <div className="flex gap-5 invert-brightness-200">
-            <img className="hidden md:block h-6 invert brightness-200" src="/images/user-icon.svg" alt="" />
-            <img className="h-6 invert brightness-200" src="/images/grocery-store.png" alt="" />
-            <img className="h-6 invert brightness-200" src="/images/world-icon.svg" alt="" />
+            <a href=""><img className="hidden md:block h-6 invert brightness-200" src="/images/user-icon.svg" alt="" /></a>
+            <a href="/empty-cart"><img className="h-6 invert brightness-200" src="/images/grocery-store.png" alt="" /></a>
+            <a href=""><img className="h-6 invert brightness-200" src="/images/world-icon.svg" alt="" /></a>
           </div>
         </div>
 
