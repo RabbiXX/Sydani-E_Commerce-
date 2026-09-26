@@ -1,4 +1,4 @@
-export default function PasswordResetPage() {
+export default function EmptyCartPage() {
   return (
     <main>
       <div className="w-full bg-[#4A2E28] text-white overflow-hidden py-2 border-b border-white/10">
