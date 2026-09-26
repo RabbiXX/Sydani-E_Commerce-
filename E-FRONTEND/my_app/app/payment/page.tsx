@@ -78,7 +78,7 @@ export default function PaymentPage() {
                   <p className="font-bold text-black">Opay Password</p>
                   <input className="w-full p-2 rounded-md outline-1 outline-gray-700 focus:outline-none bg-white placeholder:text-gray-700 text-[#330c04] focus:ring-2 focus:ring-amber-400 placeholder:text-sm px-3" placeholder="Enter your 6-digit login password" type="text" name="" id="" />
                 </div>
-                <a href="/payment-success"><button className="text-white mb-3 mt-5 w-full bg-[#11d399] hover:bg-[#0e3b22] transition duration-300 rounded-md font-bold p-2">Place Order</button></a>
+                <a href="/payment-successful"><button className="text-white mb-3 mt-5 w-full bg-[#11d399] hover:bg-[#0e3b22] transition duration-300 rounded-md font-bold p-2">Place Order</button></a>
                 <a href="/my-cart"><button className="text-[#11d399] mb-3 mt-5 w-full bg-white hover:bg-[#11d399] hover:text-white transition duration-300 rounded-md font-bold outline-1 outline-[#11d399] p-2">Cancel</button></a>
               </div>
             </div>
