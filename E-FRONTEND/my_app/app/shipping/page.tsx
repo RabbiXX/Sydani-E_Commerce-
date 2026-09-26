@@ -1,4 +1,4 @@
-export default function PasswordResetPage() {
+export default function ShippingPage() {
   return (
     <main>
       <div className="w-full bg-[#4A2E28] text-white overflow-hidden py-2 border-b border-white/10">
@@ -41,7 +41,6 @@ export default function PasswordResetPage() {
 
       <section className="bg-[#F1B08F]">
         <div className="max-w-6xl mx-auto py-2 px-3 flex-col md:flex items-center justify-between">
-          <p className="text-2xl mb-1 text-center md:text-4xl italic font-bold text-[#330c04]">My Cart Page <span className="text-lg text-[#330c04]">&#40; 3 items &#41;</span></p>
           <img className="mx-auto" src="/images/status2.png" alt="" />
         </div>
         <div className="max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-5 p-2 md:p-3 mx-auto">
