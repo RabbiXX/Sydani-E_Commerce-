@@ -95,7 +95,7 @@ export default function PasswordResetPage() {
                     <div className="flex flex-col justify-between pt-3">
                       <p className="text-xl mb-2 font-semibold cursor-pointer">$27.89</p>
                       <div className="w-27 px-1 flex justify-between p-1 border-2 rounded-4xl cursor-pointer hover:bg-[#c63316] hover:border-[#c63316] transition-all duration-300">
-                        <a href=""><p className="pr-2 text-sm">Add to cart</p></a>
+                        <a href="/my-cart"><p className="pr-2 text-sm">Add to cart</p></a>
                         <img className="h-5" src="/images/grocery-store.png" alt="" />
                       </div>
                     </div>
@@ -112,7 +112,7 @@ export default function PasswordResetPage() {
                     <div className="flex flex-col justify-between pt-3">
                       <p className="text-xl mb-2 font-semibold cursor-pointer">$17.89</p>
                       <div className="w-27 px-1 md:full flex justify-between p-1 border-2 rounded-4xl cursor-pointer hover:bg-[#c63316] hover:border-[#c63316] transition-all duration-300">
-                        <a href=""><p className="pr-2 text-sm">Add to cart</p></a>
+                        <a href="/my-cart"><p className="pr-2 text-sm">Add to cart</p></a>
                         <img className="h-5" src="/images/grocery-store.png" alt="" />
                       </div>
                     </div>
@@ -129,7 +129,7 @@ export default function PasswordResetPage() {
                     <div className="flex flex-col justify-between pt-3">
                       <p className="text-xl mb-2 font-semibold cursor-pointer">$1.39</p>
                       <div className="w-27 px-1 md:full flex justify-between p-1 border-2 rounded-4xl cursor-pointer hover:bg-[#c63316] hover:border-[#c63316] transition-all duration-300">
-                        <a href=""><p className="pr-2 text-sm">Add to cart</p></a>
+                        <a href="/my-cart"><p className="pr-2 text-sm">Add to cart</p></a>
                         <img className="h-5" src="/images/grocery-store.png" alt="" />
                       </div>
                     </div>
@@ -147,7 +147,7 @@ export default function PasswordResetPage() {
                     <div className="flex flex-col justify-between pt-3">
                       <p className="text-xl mb-2 font-semibold cursor-pointer">$12.49</p>
                       <div className="w-27 px-1 md:full flex justify-between p-1 border-2 rounded-4xl cursor-pointer hover:bg-[#c63316] hover:border-[#c63316] transition-all duration-300">
-                        <a href=""><p className="pr-2 text-sm">Add to cart</p></a>
+                        <a href="/my-cart"><p className="pr-2 text-sm">Add to cart</p></a>
                         <img className="h-5" src="/images/grocery-store.png" alt="" />
                       </div>
                     </div>
@@ -171,7 +171,7 @@ export default function PasswordResetPage() {
                     <div className="flex flex-col justify-between pt-3">
                       <p className="text-xl mb-2 font-semibold cursor-pointer">$27.89</p>
                       <div className="w-27 px-1 md:full flex justify-between p-1 border-2 rounded-4xl cursor-pointer hover:bg-[#c63316] hover:border-[#c63316] transition-all duration-300">
-                        <a href=""><p className="pr-2 text-sm">Add to cart</p></a>
+                        <a href="/my-cart"><p className="pr-2 text-sm">Add to cart</p></a>
                         <img className="h-5" src="/images/grocery-store.png" alt="" />
                       </div>
                     </div>
@@ -189,7 +189,7 @@ export default function PasswordResetPage() {
                     <div className="flex flex-col justify-between pt-3">
                       <p className="text-xl mb-2 font-semibold cursor-pointer">$30.89</p>
                       <div className="w-27 px-1 md:full flex justify-between p-1 border-2 rounded-4xl cursor-pointer hover:bg-[#c63316] hover:border-[#c63316] transition-all duration-300">
-                        <a href=""><p className="pr-2 text-sm">Add to cart</p></a>
+                        <a href="/my-cart"><p className="pr-2 text-sm">Add to cart</p></a>
                         <img className="h-5" src="/images/grocery-store.png" alt="" />
                       </div>
                     </div>
@@ -206,7 +206,7 @@ export default function PasswordResetPage() {
                     <div className="flex flex-col justify-between pt-3">
                       <p className="text-xl mb-2 font-semibold cursor-pointer">$47.59</p>
                       <div className="w-27 px-1 md:full flex justify-between p-1 border-2 rounded-4xl cursor-pointer hover:bg-[#c63316] hover:border-[#c63316] transition-all duration-300">
-                        <a href=""><p className="pr-2 text-sm">Add to cart</p></a>
+                        <a href="/my-cart"><p className="pr-2 text-sm">Add to cart</p></a>
                         <img className="h-5" src="/images/grocery-store.png" alt="" />
                       </div>
                     </div>
@@ -223,7 +223,7 @@ export default function PasswordResetPage() {
                     <div className="flex flex-col justify-between pt-3">
                       <p className="text-xl mb-2 font-semibold cursor-pointer">$12.99</p>
                       <div className="w-27 px-1 md:full flex justify-between p-1 border-2 rounded-4xl cursor-pointer hover:bg-[#c63316] hover:border-[#c63316] transition-all duration-300">
-                        <a href=""><p className="pr-2 text-sm">Add to cart</p></a>
+                        <a href="/my-cart"><p className="pr-2 text-sm">Add to cart</p></a>
                         <img className="h-5" src="/images/grocery-store.png" alt="" />
                       </div>
                     </div>
@@ -247,7 +247,7 @@ export default function PasswordResetPage() {
                     <div className="flex flex-col justify-between pt-3">
                       <p className="text-xl mb-2 font-semibold cursor-pointer">$15.89</p>
                       <div className="w-27 px-1 md:full flex justify-between p-1 border-2 rounded-4xl cursor-pointer hover:bg-[#c63316] hover:border-[#c63316] transition-all duration-300">
-                        <a href=""><p className="pr-2 text-sm">Add to cart</p></a>
+                        <a href="/my-cart"><p className="pr-2 text-sm">Add to cart</p></a>
                         <img className="h-5" src="/images/grocery-store.png" alt="" />
                       </div>
                     </div>
@@ -265,7 +265,7 @@ export default function PasswordResetPage() {
                     <div className="flex flex-col justify-between pt-3">
                       <p className="text-xl mb-2 font-semibold cursor-pointer">$7.50</p>
                       <div className="w-27 px-1 md:full flex justify-between p-1 border-2 rounded-4xl cursor-pointer hover:bg-[#c63316] hover:border-[#c63316] transition-all duration-300">
-                        <a href=""><p className="pr-2 text-sm">Add to cart</p></a>
+                        <a href="/my-cart"><p className="pr-2 text-sm">Add to cart</p></a>
                         <img className="h-5" src="/images/grocery-store.png" alt="" />
                       </div>
                     </div>
@@ -282,7 +282,7 @@ export default function PasswordResetPage() {
                     <div className="flex flex-col justify-between pt-3">
                       <p className="text-xl mb-2 font-semibold cursor-pointer">$15.29</p>
                       <div className="w-27 px-1 md:full flex justify-between p-1 border-2 rounded-4xl cursor-pointer hover:bg-[#c63316] hover:border-[#c63316] transition-all duration-300">
-                        <a href=""><p className="pr-2 text-sm">Add to cart</p></a>
+                        <a href="/my-cart"><p className="pr-2 text-sm">Add to cart</p></a>
                         <img className="h-5" src="/images/grocery-store.png" alt="" />
                       </div>
                     </div>
@@ -299,7 +299,7 @@ export default function PasswordResetPage() {
                     <div className="flex flex-col justify-between pt-3">
                       <p className="text-xl mb-2 font-semibold cursor-pointer">$21.39</p>
                       <div className="w-27 px-1 md:full flex justify-between p-1 border-2 rounded-4xl cursor-pointer hover:bg-[#c63316] hover:border-[#c63316] transition-all duration-300">
-                        <a href=""><p className="pr-2 text-sm">Add to cart</p></a>
+                        <a href="/my-cart"><p className="pr-2 text-sm">Add to cart</p></a>
                         <img className="h-5" src="/images/grocery-store.png" alt="" />
                       </div>
                     </div>
