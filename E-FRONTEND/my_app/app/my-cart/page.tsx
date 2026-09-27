@@ -19,7 +19,7 @@ export default function MyCartPage() {
 
         <div className="flex justify-between max-w-6xl w-full mx-auto items-center p-3 ">
           <div>
-            <img className="hidden md:block" src="/images/stacked-logo.png" alt="" />
+            <a href="/home"><img className="hidden md:block" src="/images/stacked-logo.png" alt="" /></a>
           </div>
 
           <div className="flex items-center flex-1 p-1 md:max-w-3xl">
@@ -38,10 +38,11 @@ export default function MyCartPage() {
           </div>
         </div>
       </nav>
+
       <section className="bg-[#F1B08F]">
         <div className="max-w-6xl mx-auto py-2 px-3 flex-col md:flex items-center justify-between">
           <p className="text-2xl mb-1 text-center md:text-4xl italic font-bold text-[#330c04]">My Cart Page <span className="text-lg text-[#330c04]">&#40; 3 items &#41;</span></p>
-          <img className="mx-auto" src="/images/status1.png" alt="" />
+          <img className="mx-auto" src="/images/status1.png" alt="" />     
         </div>
         <div className="max-w-6xl grid grid-rows md:grid-cols-3 gap-5 p-2 md:p-3 mx-auto">
           <div className="flex flex-col gap-5 md:col-span-2">
@@ -143,7 +144,7 @@ export default function MyCartPage() {
                 <p className="font-bold">Total</p>
                 <p className="font-bold">$8,451.76</p>
               </div>
-              <a href="/shipping"><button className="text-white mb-3 mt-5 w-full bg-[#330c04] hover:bg-[#81483c] transition duration-300 rounded-3xl p-1">Place Order</button></a>
+              <a href="/shipping-address"><button className="text-white mb-3 mt-5 w-full bg-[#330c04] hover:bg-[#81483c] transition duration-300 rounded-3xl p-1">Place Order</button></a>
               <small className="text-slate-800">Upon clicking 'place order', I confirm i have read and
                 acknowledge <span className="text-sky-800">all terms and policies</span></small>
             </div>

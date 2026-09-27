@@ -40,62 +40,45 @@ export default function ShippingPage() {
       </nav>
 
       <section className="bg-[#F1B08F]">
-        <div className="max-w-6xl mx-auto py-2 px-3 flex items-center justify-between">
-          <a href="/shipping-address"><div className="text-black text-3xl">&#8592;</div></a>
-          <img className="mx-auto" src="/images/status3.png" alt="" />
+        <div className="max-w-6xl mx-auto py-2 px-3 md:flex items-center justify-between">
+          <a href="/my-cart"><div className="text-black text-3xl">&#8592;</div></a>
+          <img className="mx-auto" src="/images/status2.png" alt="" />
         </div>
+
         <div className="max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-5 p-2 md:p-3 mx-auto">
           <div className="flex flex-col gap-5 md:col-span-2">
 
             <div className="w-full p-3 rounded-xl bg-[#F7F3EA]" >
-
-              <div className="p-3 w-full">
-                <p className="text-black font-bold text-xl">SHIPPING ADDRESS</p>
-                <div className="w-full mt-3">
-                  <input className="w-full mb-5 p-3 rounded-xl outline-1 outline-[#330c04] focus:outline-none bg-transparent placeholder:text-[#330c04] placeholder:text-sm" type="text" name="" placeholder="Email" id="" />
-                  <div className="mb-5 flex">
-                    <input className="p-3 w-1/2 mr-4 rounded-xl outline-1 outline-[#330c04] focus:outline-none bg-transparent placeholder:text-[#330c04] placeholder:text-sm" placeholder="Full Name" type="text" name="" id="" />
-                    <input className="p-3 w-1/2 rounded-xl outline-1 outline-[#330c04] focus:outline-none bg-transparent placeholder:text-[#330c04] placeholder:text-sm" placeholder="Last Name" type="text" name="" id="" />
-                  </div>
-                  <input className="w-full mb-5 p-3 rounded-xl outline-1 outline-[#330c04] focus:outline-none bg-transparent placeholder:text-[#330c04] placeholder:text-sm" placeholder="Company(Optional)" type="text" name="" id="" />
-                  <div className="mb-5 flex">
-                    <input className="p-3 w-1/2 mr-4 rounded-xl outline-1 outline-[#330c04] focus:outline-none bg-transparent placeholder:text-[#330c04] placeholder:text-sm" placeholder="State" type="text" name="" id="" />
-                    <input className="p-3 w-1/2 rounded-xl outline-1 outline-[#330c04] focus:outline-none bg-transparent placeholder:text-[#330c04] placeholder:text-sm" placeholder="Address" type="text" name="" id="" />
-                  </div>
-                  <input className="w-full mb-5 p-3 rounded-xl outline-1 outline-[#330c04] focus:outline-none bg-transparent placeholder:text-[#330c04] placeholder:text-sm" placeholder="Country" type="text" name="" id="" />
-                  <div className="flex">
-                    <input className="p-3 w-1/2 mr-4 rounded-xl outline-1 outline-[#330c04] focus:outline-none bg-transparent placeholder:text-[#330c04] placeholder:text-sm" placeholder="Postal Code" type="text" name="" id="" />
-                    <input className="p-3 w-1/2 rounded-xl outline-1 outline-[#330c04] focus:outline-none bg-transparent placeholder:text-[#330c04] placeholder:text-sm" placeholder="Telephone" type="text" name="" id="" />
-                  </div>
-                </div>
-              </div>
-
+              <p className="text-black font-bold text-xl">SHIPPING ADDRESS</p>
+              <small><a href="/shipping" className="text-blue-600">+ Add new Address</a></small>
             </div>
 
-            <div className="w-full flex cursor-pointer items-center rounded-3xl p-9 bg-[#F7F3EA]">
+            <div className="w-full flex cursor-pointer items-center rounded-3xl p-3 bg-[#F7F3EA]">
               <div className="w-full">
                 <p className="font-bold text-black text-xl p-2">Payment Method</p>
-                <div className="flex gap-5">
-                  <div className="outline-2 outline-[#330c04] p-5 rounded-xl w-25 "><img className="mx-auto" src="/images/card.png" alt="" /></div>
-                  <div className="outline-1 outline-[#5c352d] p-5 rounded-xl w-25 "><img className="mx-auto" src="images/transfer.png" alt="" /></div>
-                  <div className="outline-1 outline-[#5c352d] p-5 rounded-xl w-25 "><img className="mx-auto" src="/images/bank.png" alt="" /></div>
+                <div className="flex mb-5 text-black">
+                  <input className="mr-2" type="checkbox" />
+                  <img  className="mr-1" src="/images/opay-logo.png" alt="" />
+                  <p>Opay</p>
                 </div>
-                <div className="mt-3 w-full">
-                  <p className="font-bold text-black">Name on Card</p>
-                  <input className="w-full p-2 rounded-xl outline-1 outline-[#330c04] focus:outline-none bg-transparent placeholder:text-[#330c04] text-[#330c04] focus:ring-2 focus:ring-amber-400 placeholder:text-sm px-3" placeholder="Name" type="text" name="" id="" />
+                <div className="flex mb-5 text-black">
+                  <input className="mr-2" type="checkbox" />
+                  <div>
+                    <p>Add a new card</p>
+                    <img src="/images/credit-cards.png" alt="" />
+                  </div>
                 </div>
-                <div className="mt-3 w-full">
-                  <p className="font-bold text-black">Card Number</p>
-                  <input className="w-full p-2 rounded-xl outline-1 outline-[#330c04] focus:outline-none bg-transparent placeholder:text-[#330c04] text-[#330c04] focus:ring-2 focus:ring-amber-400 placeholder:text-sm px-3" placeholder="0000  0000 0000 0000" type="text" name="" id="" />
+                <div className="flex text-black">
+                  <input className="mr-2" type="checkbox" />
+                  <img src="/images/paypal.png" alt="" />
+                  <p>Paypal</p>
                 </div>
-                <div className="flex gap-5 mt-5 w-full">
-                  <input className="w-full p-2 rounded-xl outline-1 outline-[#330c04] focus:outline-none bg-transparent placeholder:text-[#330c04] text-[#330c04] focus:ring-2 focus:ring-amber-400 placeholder:text-sm px-3" placeholder="MM" type="month" name="" id="" />
-                  <input className="w-full p-2 rounded-xl outline-1 outline-[#330c04] focus:outline-none bg-transparent placeholder:text-[#330c04] text-[#330c04] focus:ring-2 focus:ring-amber-400 placeholder:text-sm px-3" placeholder="CVV" type="text" name="" id="" />
-                </div>
-                <a href="/payment"><button className="text-white mb-3 mt-5 w-full bg-[#330c04] hover:bg-[#81483c] transition duration-300 rounded-3xl p-2">Pay</button></a>
               </div>
             </div>
-
+            <div className="w-full flex ">
+              <button className="w-20 ms-auto p-2 bg-[#330c04] rounded-lg "><a href="/shipping">Proceed</a></button>
+            </div>
+            
           </div>
 
           <div className="w-full md:col-span-1">
