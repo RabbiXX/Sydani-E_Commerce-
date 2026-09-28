@@ -17,9 +17,11 @@ export default function EmptyCartPage() {
 
       <nav className="flex flex-col bg-[#5A3A33]">
 
+        <div className="mx-auto pt-2 invert brightness-200 md:hidden"><a href="/home"><img src="/images/straight-logo.png" alt="" /></a></div>
+
         <div className="flex justify-between max-w-6xl w-full mx-auto items-center p-3 ">
           <div>
-            <img className="hidden md:block" src="/images/stacked-logo.png" alt="" />
+            <a href="/home"><img className="hidden md:block" src="/images/stacked-logo.png" alt="" /></a>
           </div>
 
           <div className="flex items-center flex-1 p-1 md:max-w-3xl">
@@ -39,7 +41,7 @@ export default function EmptyCartPage() {
         </div>
 
         <div className="flex justify-between px-4 p-2 bg-[#3d170f] border-t-2 border-t-[#330c04]">
-          <a className="active:text-[#F1B08F] text-[#F1B08F] text-md font-medium tracking-wide uppercase" href="#">All Categories</a>
+          <a className="active:text-[#F1B08F] md:hover:text-[#F1B08F] text-md font-medium tracking-wide uppercase" href="/categories">All Categories</a>
           <a className="text-md font-medium tracking-wide uppercase hidden md:block md:hover:text-[#F1B08F] " href="#">Hair Extensions</a>
           <a className="text-md font-medium tracking-wide uppercase md:hover:text-[#F1B08F] " href="#">Hair Tools</a>
           <a className="text-md font-medium tracking-wide uppercase hidden md:block md:hover:text-[#F1B08F] " href="#">Accessories</a>
