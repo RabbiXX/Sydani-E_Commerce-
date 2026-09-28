@@ -16,6 +16,9 @@ export default function ShippingPage() {
       </div>
 
       <nav className="flex flex-col bg-[#5A3A33]">
+        
+        <div className="mx-auto pt-2 invert brightness-200 md:hidden"><a href="/home"><img src="/images/straight-logo.png" alt="" /></a></div>
+
 
         <div className="flex justify-between max-w-6xl w-full mx-auto items-center p-3 ">
           <div>

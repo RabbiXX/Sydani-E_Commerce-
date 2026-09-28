@@ -41,7 +41,7 @@ export default function PaymentPage() {
 
       <section className="bg-[#F1B08F]">
         <div className="max-w-6xl mx-auto py-2 px-3 flex-col md:flex items-center justify-between">
-          <img className="mx-auto" src="/images/status3.png" alt="" />
+          <img className="mx-auto" src="/images/status4.png" alt="" />
         </div>
 
         <div className="max-w-4xl grid grid-cols-1 gap-5 p-2 md:p-3 mx-auto">
