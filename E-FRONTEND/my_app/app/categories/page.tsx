@@ -142,7 +142,7 @@ export default function PasswordResetPage() {
                     <div className="p-2 cursor-pointer rounded-b-lg bg-white">
                       <div className="flex justify-between">
                         <p className="text-black font-bold w-4/5">Gisou Honey Infused Hair Oil</p>
-                        <div className="w-1/5"><a href="/my-cart"><img className="h-8 border-2 border-black rounded-full p-1" src="/images/grocery-store.png" alt="" /></a></div>
+                        <div className="w-1/5"><a href="/product-details"><img className="h-8 border-2 border-black rounded-full p-1" src="/images/grocery-store.png" alt="" /></a></div>
                       </div>
                       <p className="text-black font-light">300</p>
                       <p className="font-bold text-green-700">$12.00</p>
